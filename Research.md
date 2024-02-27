@@ -7,23 +7,26 @@
 
 ### Jackson:
 
-    https://www.sciencedirect.com/science/article/pii/S0925231223003557 - A systematic review of hate speech automatic detection using natural language processing, 2023
-    
+    https://www.sciencedirect.com/science/article/pii/S0925231223003557 - A systematic review of hate speech automatic detection using natural language processing up to 2023. This paper is analyzing the collective research in this field, giving valuable information about how other researchers are handling this problem so we can base our implementation on methods with past success. This paper is often extremely specific with its information in how these projects were implemented, such a information on dataset size / proportions, models used, and methods for word encoding.
+
     This paper is analyzing the collective research in this field, giving valuable information about what how other researchers are handling this problem so we can base our implementation on everyone else's
-    
-    https://arxiv.org/pdf/2104.02242.pdf - hBert + BiasCorp - Fighting Racism on the Web
-    
+
+    https://arxiv.org/pdf/2104.02242.pdf - hBert + BiasCorp - Fighting Racism on the Web. This paper contains a manually annotated dataset of racist news articles, a rarity as many of the datasets use mostly tweets. This data will look a lot more like the data we will encounter in the news. The article then goes on to explain their model "HBert" which I'm less interested in than the traditional BERT. 
+
     Manually annotated dataset of racist news strings, and hBert implementation of 
-    
+
     https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9684891 - Racism Detection by Analyzing Differential Opinions Through Sentiment Analysis of Tweets Using Stacked Ensemble GCR-NN Model
-    
+
     https://www.youtube.com/watch?v=9he4XKqqzvE 
-    
-    BERT fine tuning video ^
-    
+
+    BERT fine tuning video , really not a terribly difficult task.
+
     https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0237861&type=printable 
+    Paper specifically with a fine-tuned BERT model for hate speech detection. Should be quite similar to what we want to do eventually, so referring to this resource will be very useful. 
 
 
+    https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.csv 
+    Another very useful dataset, this time on Tweets, but the dataset has different scores for hate speech, offensive language, neither, and final classification. Could be extremely useful. 
 
 ### Jack:
 
